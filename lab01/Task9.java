@@ -4,11 +4,9 @@ public class Task9 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("a: ");
+        System.out.print("a, b, c: ");
         double a = scan.nextDouble();
-        System.out.print("b: ");
         double b = scan.nextDouble();
-        System.out.print("c: ");
         double c = scan.nextDouble();
 
         double discriminant = b*b - 4*a*c;
